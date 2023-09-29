@@ -357,14 +357,14 @@ line-height: 24px; /* 150% */
 letter-spacing: 0.32px;
 }
 .footer-soc-list{
-display: inline-block;
+display: flex;
 gap: 16px;
 padding-top: 16px;
-background-color: #4D5AE5;
-border-radius: 50%;
 }
 
 .footer-soc-icon{
     fill: #fff;
     flex-shrink: 0;
+    background-color: #4D5AE5;
+border-radius: 50%;
 }
