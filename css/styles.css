@@ -228,6 +228,7 @@ background: #F4F4FD;
 .features-item{
     width: 264px;
 height: 112px;
+padding-bottom: 8px;
 }
 /* =========Our team========== */
 .our-team {
