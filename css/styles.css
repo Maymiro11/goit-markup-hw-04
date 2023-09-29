@@ -276,6 +276,9 @@ text-align: center;
     display: flex;
     gap: 24px;
 }
+.team-soc-list{
+    display: flex;
+}
 /* ========Our Portfolio========== */
 .portfolio{
     padding-top: 120px;
@@ -371,12 +374,6 @@ letter-spacing: 0.32px;
 display: flex;
 gap: 16px;
 padding-top: 16px;
-
-background-color: #4D5AE5;
-border-radius: 50%;
-padding: 8px;
-width: 40px;
-height: 40px;
 }
 
 .footer-soc-icon{
