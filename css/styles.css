@@ -39,15 +39,11 @@ ul, ol {
 } 
   .header{
 border-bottom: 1px solid #e7e9fc;
-
-
   }
   .header-nav{
     display: flex;
     align-items: center;
-    
 }
-  
 .logo-studio{
     color: #2e2f42;
     gap: 76px;
@@ -62,7 +58,6 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 margin-right: 76px;
 flex-shrink: 0;
-
 }
 .header-link:hover,
 .header-link:hover{
@@ -72,14 +67,35 @@ flex-shrink: 0;
 .header-list-link:focus{
     color: #404bbf;
 }
+.header-list-link::after{
+content: "";
+width: 48px;
+height: 4px;
+background-color: #fff;
+border-radius: 2px;
+}
+.header-list-link:hover::after{
+background-color: #404BBF;
+}
 .header-list-link{
     color: #2e2f42;  
     font-weight: 500;
     line-height: 1.5;
 letter-spacing: 0.02em;
 padding: 24px 0;
-
 }
+.header-link-item:first-child .header-list-link::after {
+    display: block;
+    content: "";
+    border-radius: 2px;
+    background: #404bbf;
+    width: 100%;
+    height: 4px;
+    left: 0;
+    bottom: -1px;
+    position: absolute;
+}
+
 .header-list{
    display: flex; 
 gap: 40px;
@@ -124,6 +140,13 @@ color:#404BBF
 
  .order-servise{
     background: #2E2F42;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.70), 
+    rgba(46, 47, 66, 0.70)), 
+    url(../images/people-office.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     text-align: center;
     color: #fff;
     padding: 188px 0;
@@ -297,6 +320,12 @@ letter-spacing: 0.02em;
     font-family: "Roboto", sans-serif;
     padding-top: 100px;
     padding-bottom: 100px;
+
+   }
+   .footer-container{
+    display: flex;
+    gap: 80px;
+
    }
    .footer-link{
     color: #4d5ae5;
@@ -317,4 +346,22 @@ display: inline-block;
 line-height: 1.5;
 letter-spacing: 0.02em;
 max-width: 264px;
+}
+.footer-social{
+    color: #fff;
+    font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+letter-spacing: 0.32px;
+}
+.footer-soc-list{
+display: flex;
+gap: 16px;
+padding-top: 16px;
+}
+.footer-soc-icon{
+    fill: #fff;
+    flex-shrink: 0;
 }
