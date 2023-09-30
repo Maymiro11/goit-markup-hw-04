@@ -283,6 +283,7 @@ text-align: center;
     display: flex;
     gap: 24px;
     align-items: center;
+    justify-content: center;
 }
 .team-soc-icon{
     fill: #fff;
@@ -297,6 +298,9 @@ justify-content: center;
 align-items: center;
 border-radius: 50%;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.team-soc-item:hover{
+    background-color: #31D0AA;
 }
 /* ========Our Portfolio========== */
 .portfolio{
