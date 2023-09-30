@@ -223,9 +223,8 @@ letter-spacing: 0.02em;
     overflow: hidden;
 }
 .features-icon{
-    border-radius: 4px;
-border: 1px solid #8E8F99;
-background: #F4F4FD;
+
+
 
 }
 .features-item{
@@ -233,6 +232,19 @@ background: #F4F4FD;
 height: 112px;
 padding-bottom: 8px;
 }
+
+.features-icon-div{
+    width: 264px;
+height: 112px;
+border-radius: 4px;
+border: 1px solid var(--LIGHT-SLATE, #8E8F99);
+background: var(--CLOUD, #F4F4FD); 
+justify-content: center;
+align-items: center;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+border-radius: 4px;
+}
+
 /* =========Our team========== */
 .our-team {
     background: #F4F4FD;
