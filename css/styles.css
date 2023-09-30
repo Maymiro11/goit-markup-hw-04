@@ -67,13 +67,13 @@ flex-shrink: 0;
 .header-list-link:focus{
     color: #404bbf;
 }
-.header-list-link::after{
+/* .header-list-link::after{
 content: "";
 width: 48px;
 height: 4px;
 background-color: #fff;
 border-radius: 2px;
-}
+} */
 .header-list-link:hover::after{
 background-color: #404BBF;
 }
@@ -96,7 +96,7 @@ position: relative;
     height: 4px;
     left: 0;
     bottom: -1px;
-    position: relative;
+    position: absolute;
 }
 
 .header-list{
