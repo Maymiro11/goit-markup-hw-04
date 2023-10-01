@@ -393,7 +393,7 @@ letter-spacing: 0.02em;
 }
 .portfolio-cover-div{ 
     position: relative;
-    
+    overflow: hidden;  
 }
 
 .portfolio-cover-div:hover .portfolio-cover-text{
@@ -421,7 +421,7 @@ flex-shrink: 0;
 border: 1px solid var(--CLOUD, #F4F4FD);
 box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 background: var(--IRIS, #4D5AE5);
-/* top: 0px; */
+top: 0px;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -429,6 +429,8 @@ align-items: center;
 padding: 40px 32px;
 
 transform: translateY(100%);
+
+
 }
 
 .our-portfolio-header{
