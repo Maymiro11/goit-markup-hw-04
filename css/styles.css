@@ -94,6 +94,9 @@ position: relative;
     bottom: -1px;
     position: absolute;
 }
+.header-link-item:first-child{
+    color: #404bbf;
+}
 .header-list{
    display: flex; 
 gap: 40px;
