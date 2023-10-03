@@ -94,7 +94,7 @@ position: relative;
     bottom: -1px;
     position: absolute;
 }
-.header-link-item:first-child{
+.header-list li:first-child .header-list-link {
     color: #404bbf;
 }
 .header-list{
